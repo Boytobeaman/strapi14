@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kwusers",
+      "handler": "Kwuser.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kwusers/count",
+      "handler": "Kwuser.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kwusers/:_id",
+      "handler": "Kwuser.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kwusers",
+      "handler": "Kwuser.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kwusers/:_id",
+      "handler": "Kwuser.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kwusers/:_id",
+      "handler": "Kwuser.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

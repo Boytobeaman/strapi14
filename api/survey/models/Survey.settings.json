@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "survey",
+  "info": {
+    "name": "survey",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "json_string": {
+      "default": "",
+      "type": "string"
+    },
+    "survey_json": {
+      "default": "",
+      "type": "text"
+    },
+    "survey_pure_json": {
+      "default": "",
+      "type": "json"
+    }
+  }
+}

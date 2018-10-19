@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "kwuser",
+  "info": {
+    "name": "kwuser",
+    "description": "User account information"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "default": "",
+      "type": "email"
+    },
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "password": {
+      "default": "",
+      "type": "password"
+    },
+    "status": {
+      "default": "",
+      "type": "string"
+    },
+    "phone_number": {
+      "default": "",
+      "type": "string"
+    },
+    "register_time": {
+      "default": "",
+      "type": "date"
+    },
+    "activate_id": {
+      "default": "",
+      "type": "string"
+    },
+    "aliplatforms": {
+      "collection": "aliplatform",
+      "via": "kwuser"
+    }
+  }
+}

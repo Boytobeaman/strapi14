@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/aliplatforms",
+      "handler": "Aliplatform.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aliplatforms/count",
+      "handler": "Aliplatform.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aliplatforms/:_id",
+      "handler": "Aliplatform.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/aliplatforms",
+      "handler": "Aliplatform.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/aliplatforms/:_id",
+      "handler": "Aliplatform.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/aliplatforms/:_id",
+      "handler": "Aliplatform.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
